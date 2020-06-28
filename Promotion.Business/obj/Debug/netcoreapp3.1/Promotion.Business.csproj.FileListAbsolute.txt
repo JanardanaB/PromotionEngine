@@ -1,0 +1,8 @@
+D:\JB\PromotionEngine\Promotion.Business\obj\Debug\netcoreapp3.1\Promotion.Business.csproj.CoreCompileInputs.cache
+D:\JB\PromotionEngine\Promotion.Business\obj\Debug\netcoreapp3.1\Promotion.Business.AssemblyInfoInputs.cache
+D:\JB\PromotionEngine\Promotion.Business\obj\Debug\netcoreapp3.1\Promotion.Business.AssemblyInfo.cs
+D:\JB\PromotionEngine\Promotion.Business\bin\Debug\netcoreapp3.1\Promotion.Business.deps.json
+D:\JB\PromotionEngine\Promotion.Business\bin\Debug\netcoreapp3.1\Promotion.Business.dll
+D:\JB\PromotionEngine\Promotion.Business\bin\Debug\netcoreapp3.1\Promotion.Business.pdb
+D:\JB\PromotionEngine\Promotion.Business\obj\Debug\netcoreapp3.1\Promotion.Business.dll
+D:\JB\PromotionEngine\Promotion.Business\obj\Debug\netcoreapp3.1\Promotion.Business.pdb

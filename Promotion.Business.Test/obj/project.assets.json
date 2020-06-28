@@ -1634,6 +1634,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Promotion.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Promotion.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Promotion.Business.dll": {}
+        }
       }
     }
   },
@@ -5705,6 +5715,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Promotion.Business/1.0.0": {
+      "type": "project",
+      "path": "../Promotion.Business/Promotion.Business.csproj",
+      "msbuildProject": "../Promotion.Business/Promotion.Business.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5712,6 +5727,7 @@
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "Promotion.Business >= 1.0.0",
       "coverlet.collector >= 1.2.0"
     ]
   },
@@ -5748,7 +5764,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\JB\\PromotionEngine\\Promotion.Business\\Promotion.Business.csproj": {
+              "projectPath": "D:\\JB\\PromotionEngine\\Promotion.Business\\Promotion.Business.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
