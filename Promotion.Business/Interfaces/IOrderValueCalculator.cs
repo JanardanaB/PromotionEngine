@@ -6,7 +6,6 @@ namespace Promotion.Business.Interfaces
 {
     public interface IOrderValueCalculator
     {
-        Task<int> CalculateOrder(List<SkuOrder> skuUnits);
-        int ApplyPromotion(SkuOrder skuUnit, int defaultPriceValue, ActivePromotion promotion);
+        Task<int> CalculateOrder(List<SkuOrder> skuUnits);        
     }
 }

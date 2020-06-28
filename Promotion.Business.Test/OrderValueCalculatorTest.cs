@@ -20,9 +20,8 @@ namespace Promotion.Business.Test
             orderValueCalculator = new OrderValueCalculator(unitPrice, promotion);
         }
 
-
         [TestMethod]
-        public async Task CalculateOrder_Expected_returnValue_100()
+        public async Task CalculateOrder_Scenario1_1A_1B_1C_Expected_returnValue_100()
         {
             int expectedOrderValue = 100;
             //Arrange
@@ -42,7 +41,7 @@ namespace Promotion.Business.Test
         }
 
         [TestMethod]
-        public async Task CalculateOrder_Expected_returnValue_370()
+        public async Task CalculateOrder_Scenario2_5A_5B_1C_Expected_returnValue_370()
         {
             int expectedOrderValue = 370;
             //Arrange
@@ -61,7 +60,7 @@ namespace Promotion.Business.Test
         }
 
         [TestMethod]
-        public async Task CalculateOrder_Expected_returnValue_280()
+        public async Task CalculateOrder_Scenario3_3A_5B_1C_1D_Expected_returnValue_280()
         {
             int expectedOrderValue = 280;
             //Arrange
